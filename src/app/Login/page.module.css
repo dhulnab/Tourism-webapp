@@ -1,4 +1,5 @@
-.main h3,.main p {
+.main h3,
+.main p {
   text-align: right;
   margin: 25px;
 }
@@ -12,9 +13,8 @@
   width: 90%;
   margin: auto;
 }
-/* .num{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
+.num {
+  width: 100%;
+  margin-left: 8px;
+  margin-right: 8px;
+}

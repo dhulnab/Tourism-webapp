@@ -24,11 +24,11 @@ const page = () => {
           <div className={styles.num}>
             <Input
               placeholder={"+964"}
-              style={{ width: "20%", margin: "8px" }}
+              style={{ width: "20%", marginRight:"5%"}}
             />
             <Input
               placeholder={"رقم الهاتف"}
-              style={{ width: "60%", margin: "8px" }}
+              style={{ width: "60%"}}
             />
           </div>
           <Input
