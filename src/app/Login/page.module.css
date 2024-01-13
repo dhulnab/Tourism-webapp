@@ -1,0 +1,14 @@
+.main h3,.main p {
+  text-align: right;
+  margin: 25px;
+}
+.content {
+  width: 90%;
+  margin: auto;
+}
+.image {
+  position: relative;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+}

@@ -1,0 +1,42 @@
+.secondary {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 4px 12px;
+  transition: 100ms linear 5ms;
+  cursor: pointer;
+}
+.secondary:hover {
+  background-color: black;
+  color: #fff;
+}
+.primary:active {
+  transform: scale(0.96);
+}
+.primary {
+  background-color: #00A0B1;
+  border: 1px solid #00A0B1;
+  border-radius: 8px;
+  padding: 4px 12px;
+  color: #fff;
+  cursor: pointer;
+  transition: 100ms linear 5ms;
+}
+.default {
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.sm button {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 8px;
+}
+.md button {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px;
+}
