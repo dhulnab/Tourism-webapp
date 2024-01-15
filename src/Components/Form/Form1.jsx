@@ -3,7 +3,7 @@ import SetAvatar from "../Avatar/Avatar";
 import Input from "../Input/Input";
 import { useInfo } from "@/globalVars";
 
-function Form1() {
+const Form1 = () => {
   const { setName, name } = useInfo();
   return (
     <div>
@@ -16,6 +16,6 @@ function Form1() {
       />
     </div>
   );
-}
+};
 
 export default Form1;
