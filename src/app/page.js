@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Link href={"/Login"}>
-        Login click here
-      </Link>
+      <Link href={"/Login"}>Login click here</Link>
+      <br />
+      <Link href={"/Signup"}>Sign up click here</Link>
     </main>
   );
 }

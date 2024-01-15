@@ -1,6 +1,5 @@
 .main h3,
 .main p {
-  text-align: right;
   margin: 25px;
 }
 .content {
@@ -9,12 +8,33 @@
 }
 .image {
   position: relative;
-  height: 300px;
-  width: 90%;
+  height: 140px;
+  width: 70%;
   margin: auto;
 }
 .num {
-  width: 100%;
+  width: 95%;
   margin-left: 8px;
   margin-right: 8px;
+}
+.footer div{
+    position: relative;
+    width: 25%;
+    height: 15px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 20px;
+    left: 112px;
+}
+.footer p{
+    margin-right: 75px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #929292f1;
+    font-weight: 500;
 }
