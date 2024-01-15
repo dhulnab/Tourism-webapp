@@ -1,7 +1,7 @@
 "use client";
 import Container from "@/Components/Container/Container";
 import styles from "./page.module.css";
-import img2 from "../../../public/logo aon 210.png";
+import img2 from "../../../public/logo_aon_210.png";
 import Image from "next/image";
 import Form1 from "@/Components/Form/Form1";
 import { useState } from "react";

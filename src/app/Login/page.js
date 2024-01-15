@@ -5,7 +5,7 @@ import Input from "@/Components/Input/Input";
 import Button from "@/Components/Button/Button";
 import Image from "next/image";
 import img from "../../../public/undraw_aircraft_re_m05i.svg";
-import img2 from "../../../public/logo aon 210.png";
+import img2 from "../../../public/logo_aon_210.png";
 const page = () => {
   return (
     <main className={styles.main}>
