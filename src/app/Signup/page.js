@@ -1,8 +1,6 @@
 "use client";
 import Container from "@/Components/Container/Container";
 import styles from "./page.module.css";
-import img2 from "../../../public/logo_aon_210.png";
-import Image from "next/image";
 import Form1 from "@/Components/Form/Form1";
 import { useState } from "react";
 import Button from "@/Components/Button/Button";
@@ -11,18 +9,7 @@ import Form2 from "@/Components/Form/Form2";
 import { useInfo } from "@/globalVars";
 
 function page() {
-  const {
-    name,
-    setName,
-    image,
-    setImage,
-    number,
-    setNumber,
-    email,
-    setEmail,
-    password,
-    setpassword,
-  } = useInfo();
+  const { name, image, number, email, password } = useInfo();
   const [steps, setSteps] = useState(1);
   return (
     <main className={styles.main}>
@@ -66,7 +53,7 @@ function page() {
               textAlign: "center",
               marginRight: "17px",
               position: "fixed",
-              bottom: "70px",
+              bottom: "10px",
               left: "10px",
               right: "10px",
             }}
@@ -141,14 +128,19 @@ function page() {
                 marginRight: "17px",
               }}
             >
-              {" "}
               السابق
             </Button>
 
             <Button
               onClick={() => {
-                if (name && image !== "") {
+                if (number !== "" && email !== "" && password !== "") {
                   setSteps(steps + 1);
+                  const info = { name, image, number, email, password };
+                  alert(
+                    `user with this information: \n ${info.name}\n
+                    ${info.number}\n${info.email}\n${info.password}
+                     \nIs added successfully`
+                  );
                 }
               }}
               type={"primary"}
@@ -169,16 +161,8 @@ function page() {
                     : "#fff",
               }}
             >
-              التالي
+              إنشاء
             </Button>
-          </div>
-        ) : null}
-        {steps === 1 ? (
-          <div className={styles.footer}>
-            <p>powered by:</p>
-            <div>
-              <Image src={img2} alt={"img"} fill />
-            </div>
           </div>
         ) : null}
       </Container>
