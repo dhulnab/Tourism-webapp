@@ -1,7 +1,7 @@
 {
-  "id": "4",
-  "theme_color": "#00a0b1",
-  "background_color": "#00a0b1",
+  "id": "5",
+  "theme_color": "#85EFFC",
+  "background_color": "#85EFFC",
   "display": "standalone",
   "scope": "/",
   "start_url": "/Signup",
