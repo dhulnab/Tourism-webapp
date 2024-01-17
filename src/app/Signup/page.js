@@ -52,7 +52,7 @@ function page() {
               fontWeight: "700",
               textAlign: "center",
               marginRight: "17px",
-              position: "fixed",
+              position: "absolute",
               bottom: "10px",
               left: "10px",
               right: "10px",
@@ -63,7 +63,7 @@ function page() {
         ) : steps === 2 ? (
           <div
             style={{
-              position: "fixed",
+              position: "absolute",
               bottom: "10px",
               width: "99%",
               right: "0px",
@@ -109,7 +109,7 @@ function page() {
         ) : steps === 3 ? (
           <div
             style={{
-              position: "fixed",
+              position: "absolute",
               bottom: "10px",
               width: "99%",
               right: "0px",
