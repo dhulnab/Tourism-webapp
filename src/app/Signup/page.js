@@ -66,7 +66,7 @@ function page() {
               position: "absolute",
               bottom: "10px",
               width: "99%",
-              right: "0px",
+              right: "1px",
               left: "2px",
             }}
           >

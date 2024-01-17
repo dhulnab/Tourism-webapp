@@ -37,3 +37,8 @@
   height: 220px;
   border-radius: 100%;
 }
+.text {
+  position: relative;
+  top: -40px;
+  margin-left: 32px;
+}

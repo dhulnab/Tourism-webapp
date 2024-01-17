@@ -26,6 +26,9 @@ const SetAvatar = () => {
           <div className={styles.box}>
             <LuUpload className={styles.image2} />
           </div>
+          <span className={styles.text}>
+            الصورة شخصية
+          </span>
         </div>
       )}
       <input
