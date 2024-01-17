@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.zbburs",
+      "sha256_cert_fingerprints": [
+        "79:7F:36:C0:3C:61:9B:B9:D7:30:39:C4:3D:E1:8A:77:CD:E0:D4:FC:35:43:B3:9F:81:29:6C:68:0D:D7:C5:09"
+      ]
+    }
+  }
+]
